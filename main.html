@@ -3,42 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email Moroccan Embassies – GenZ212 Protests</title>
+  <title>Email Moroccan Ministries and Embassies – GenZ212 Protests</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-      background: #f9f9f9;
-      color: #222;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 16px;
-    }
-    .email-button {
-      display: inline-block;
-      margin: 8px 6px;
-      padding: 12px 18px;
-      background-color: #d30a0a;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 15px;
-    }
-    .email-button:hover {
-      background-color: #520101;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666;
-    }
-  </style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    background: #f9f9f9;
+    color: #222;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .email-button {
+    display: inline-block;
+    margin: 8px 6px;
+    padding: 12px 18px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  .email-button:hover {
+    background-color: #155d27;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+  }
+</style>
 </head>
 <body>
   <h1>Email Moroccan Embassies</h1>
@@ -46,7 +46,7 @@
     Click a button below to open your email client with a pre-filled message. Just sign your name at the bottom and hit send.
   </p>
 
-  <div id="buttons">
+  <div id="buttons_embassies">
     <!-- Buttons will be inserted here -->
   </div>
 
@@ -54,58 +54,111 @@
     This page contains no tracking and does not collect any data.
   </footer>
 
-  <script>
-    const subject = "[Urgent] [Time Sensitive] Call for Accountability Regarding Constitutional Rights Violations During GenZ212 Protests";
+  <h1>Email Moroccan Embassies</h1>
 
-    const body = `Dear Ambassador,%0A%0A
-I hope this email finds you well. I am writing to you as a concerned member of the Moroccan diaspora to express my deep distress regarding the constitutional rights violations and police brutality that occurred during the recent GenZ212 protests in Morocco. The GenZ212 protests demand better healthcare and education systems and an end of the corruption plaguing our government; all of which are demands I support. As someone who cares about my country's prosperity and the wellbeing of its citizens, I feel compelled to address these grave concerns with your esteemed office.%0A%0A
+<div id="buttons_embassies">
+  <!-- Buttons will be inserted here -->
+</div>
+
+<script>
+  const subject_embassies = "[Urgent] [Time Sensitive] Call for Accountability Regarding Constitutional Rights Violations During GenZ212 Protests";
+
+  const body_embassies = `Dear Ambassador,%0A%0A
+I hope this email finds you well. I am writing to you as a concerned member of the Moroccan diaspora to express my deep distress regarding the constitutional rights violations and police brutality that occurred during the recent GenZ212 protests in Morocco. The GenZ212 protests demand better healthcare and education systems, and an end to the corruption plaguing our government -- all of which are demands I support. As someone who cares about my country's prosperity and the wellbeing of its citizens, I feel compelled to address these grave concerns with your esteemed office.%0A%0A
 It has come to my attention that, during the protests that began on September 27th, many peaceful demonstrators were subjected to excessive force, arbitrary arrests, and physical harm by law enforcement across multiple cities. The actions of the police — including beatings, wounding, and detention of peaceful protestors (some of whom are minors) without due process — are in violation of both domestic Moroccan law (Articles 22, 23, 24, 28, 29, 32 of the Moroccan constitution) and international agreements (including the ICCPR, ICESCR, and CAT) to which Morocco is a signatory.%0A%0A
 I urge the Moroccan government and the embassy to take immediate action:%0A
 * Conduct a thorough and impartial investigation into the actions of law enforcement during the peaceful protests.%0A
 * Ensure that all Moroccans are allowed to express their political opinions without fear of retribution or violence.%0A
 * Immediately release individuals who have been detained without charge and due process.%0A
 * Publicly reaffirm Morocco’s commitment to respecting and upholding constitutional rights, as outlined in the Moroccan constitution.%0A
-* The government should commit to addressing the systemic issues that are at the heart of these protests, for a better and more just Morocco for all.%0A%0A
+* Commit to addressing the systemic issues that are at the heart of these protests, for a better and more just Morocco for all.%0A%0A
 As a member of the global Moroccan diaspora, I stand with the brave individuals who continue to fight for a better, more just Morocco. It is imperative that the government upholds the dignity and rights of its citizens, especially the youth who represent the future of the nation.%0A%0A
 I kindly request a response outlining what actions the embassy intends to take to address these concerns. Thank you for your attention to this urgent matter.%0A%0ABest regards,%0A[Sender's Full Name]`;
 
-    const embassies = {
-      "Germany": "marokko-botschaft@t-online.de",
-      "Australia": "sifmacan@moroccoembassy.org.au",
-      "Belgium": "sifamabruxe@skynet.be",
-      "Canada": "sifamaot@bellnet.ca",
-      "China": "sifama.beijing@moroccoembassy.org.cn",
-      "South Korea": "sifamase@kornet.net",
-      "Denmark": "sifamaeco@yahoo.fr",
-      "Spain": "correo@embajada-marruecos.es",
-      "USA": "embassy@moroccous.com",
-      "France": "info@amb-maroc.fr",
-      "UK": "ambalondres@maec.gov.ma",
-      "Italy": "sifamaroma@ambaciatadelmarocco.it",
-      "Japan": "sifamato@circus.ocn.ne.jp",
-      "Norway": "sifamoslo@c2i.net",
-      "UN Mission": "mission.maroc@ties.itu.int",
-      "UN Embassy (NY)": "info@morocco-un.org",
-      "Netherlands": "info@consulaatmarokkoamsterdam.nl",
-      "Portugal": "sifmar@emb-marrocos.pt",
-      "Russia": "sifmamos@gmail.com",
-      "Sweden": "morocco@telia.com",
-      "Switzerland": "sifamaberne2@bluewin.ch",
-      "UNESCO Delegation": "dl.maroc@unesco-delegation.org",
-      "EU Mission": "mission.maroc@skynet.be"
-    };
+  const embassies = {
+    "Germany": "marokko-botschaft@t-online.de",
+    "Australia": "sifmacan@moroccoembassy.org.au",
+    "Belgium": "sifamabruxe@skynet.be",
+    "Canada": "sifamaot@bellnet.ca",
+    "China": "sifama.beijing@moroccoembassy.org.cn",
+    "South Korea": "sifamase@kornet.net",
+    "Denmark": "sifamaeco@yahoo.fr",
+    "Spain": "correo@embajada-marruecos.es",
+    "USA": "embassy@moroccous.com",
+    "France": "info@amb-maroc.fr",
+    "UK": "ambalondres@maec.gov.ma",
+    "Italy": "sifamaroma@ambaciatadelmarocco.it",
+    "Japan": "sifamato@circus.ocn.ne.jp",
+    "Norway": "sifamoslo@c2i.net",
+    "UN Mission": "mission.maroc@ties.itu.int",
+    "UN Embassy (NY)": "info@morocco-un.org",
+    "Netherlands": "info@consulaatmarokkoamsterdam.nl",
+    "Portugal": "sifmar@emb-marrocos.pt",
+    "Russia": "sifmamos@gmail.com",
+    "Sweden": "morocco@telia.com",
+    "Switzerland": "sifamaberne2@bluewin.ch",
+    "UNESCO Delegation": "dl.maroc@unesco-delegation.org",
+    "EU Mission": "mission.maroc@skynet.be"
+  };
 
-    const buttonsDiv = document.getElementById('buttons');
+  const buttonsEmbassiesDiv = document.getElementById('buttons_embassies');
 
-    for (const [country, email] of Object.entries(embassies)) {
-      const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
-      const a = document.createElement('a');
-      a.href = mailtoLink;
-      a.textContent = `${country}`;
-      a.className = 'email-button';
-      a.setAttribute('rel', 'noopener noreferrer');
-      buttonsDiv.appendChild(a);
-    }
-  </script>
+  for (const [country, email] of Object.entries(embassies)) {
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject_embassies)}&body=${body_embassies}`;
+    const a = document.createElement('a');
+    a.href = mailtoLink;
+    a.textContent = `${country}`;
+    a.className = 'email-button';
+    a.setAttribute('rel', 'noopener noreferrer');
+    buttonsEmbassiesDiv.appendChild(a);
+  }
+</script>
+
+  <h1>Email Moroccan Ministries</h1>
+
+<div id="buttons_ministries">
+  <!-- Buttons will be inserted here -->
+</div>
+
+<script>
+  const subject_ministries = "[Urgent] [Time Sensitive] Call for Accountability Regarding Constitutional Rights Violations During GenZ212 Protests";
+
+  const body_ministries = `Dear Minister,%0A%0A
+I hope this email finds you well. I am writing to you as a concerned member of the Moroccan diaspora to express my deep distress regarding the constitutional rights violations and police brutality that occurred during the recent GenZ212 protests in Morocco. The GenZ212 protests demand better healthcare and education systems, and an end to the corruption plaguing our government — all of which are demands I support. As someone who cares about my country's prosperity and the wellbeing of its citizens, I feel compelled to address these grave concerns with your esteemed office.%0A%0A
+It has come to my attention that, during the protests that began on September 27th, many peaceful demonstrators were subjected to excessive force, arbitrary arrests, and physical harm by law enforcement across multiple cities. The actions of the police — including beatings, wounding, and detention of peaceful protestors (some of whom are minors) without due process — are in violation of both domestic Moroccan law (Articles 22, 23, 24, 28, 29, 32 of the Moroccan constitution) and international agreements (including the ICCPR, ICESCR, and CAT) to which Morocco is a signatory.%0A%0A
+I urge your Ministry and the Moroccan government to take immediate action:%0A
+* Conduct a thorough and impartial investigation into the actions of law enforcement during the peaceful protests.%0A
+* Ensure that all Moroccans are allowed to express their political opinions without fear of retribution or violence.%0A
+* Immediately release individuals who have been detained without charge and due process.%0A
+* Publicly reaffirm Morocco’s commitment to respecting and upholding constitutional rights, as outlined in the Moroccan constitution.%0A
+* Commit to addressing the systemic issues that are at the heart of these protests, for a better and more just Morocco for all.%0A%0A
+As a member of the global Moroccan diaspora, I stand with the brave individuals who continue to fight for a better, more just Morocco. It is imperative that the government upholds the dignity and rights of its citizens, especially the youth who represent the future of the nation.%0A%0A
+I kindly request a response outlining what actions the ministry intends to take to address these concerns. Thank you for your attention to this urgent matter.%0A%0ABest regards,%0A[Sender's Full Name]`;
+
+  const ministries = {
+    "Ministère de la Jeunesse, de la Culture et de la Communication": "contact@mjcc.gov.ma",
+    "Ministère de l'Éducation nationale, du préscolaire & des Sports": "mjes@mjes.gov.ma",
+    "Ministère de l'Intérieur": "contact@interieur.gov.ma",
+    "Ministère de la Santé et de la Protection Sociale": "sante.marroco@ministry.com",
+    "Ministère des Affaires Etrangères": "mae@maroc.ma",
+    "Ministère des Finances": "finances@finances.gov.ma",
+    "Ministère de la Justice": "justice@maroc.ma",
+    "Ministère de la Défense": "defense@maroc.ma",
+    "Ministère des Transports": "transports@maroc.ma",
+    "Ministère de l'Agriculture": "agriculture@maroc.ma"
+  };
+
+  const buttonsMinistriesDiv = document.getElementById('buttons_ministries');
+
+  for (const [ministry, email] of Object.entries(ministries)) {
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject_ministries)}&body=${body_ministries}`;
+    const a = document.createElement('a');
+    a.href = mailtoLink;
+    a.textContent = `${ministry}`;
+    a.className = 'email-button';
+    a.setAttribute('rel', 'noopener noreferrer');
+    buttonsMinistriesDiv.appendChild(a);
+  }
+</script>
 </body>
 </html>
